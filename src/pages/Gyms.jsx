@@ -3,6 +3,7 @@ import { gymsData } from '../data/gyms'
 
 function Gyms() {
   return (
+    <div className="text-center">
     <div className="gyms-page">
       <h1>Наши залы</h1>
       <div className="gyms-grid">
@@ -16,6 +17,7 @@ function Gyms() {
           />
         ))}
       </div>
+    </div>
     </div>
   )
 }

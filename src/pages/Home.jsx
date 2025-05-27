@@ -17,13 +17,15 @@ function Home() {
       </section>
 
       <section className="featured-gym">
-        <h2>Зал месяца</h2>
-        <GymCard 
-          name="IronGym Premium" 
-          address="ул. Спортивная, 15" 
-          hours="06:00 - 23:00" 
-          image={gymImage}
-        />
+        <div className="text-center">
+          <h2>Зал месяца</h2>
+          <GymCard 
+            name="IronGym Premium" 
+            address="ул. Спортивная, 15" 
+            hours="06:00 - 23:00" 
+            image={gymImage}
+          />
+        </div>
       </section>
     </div>
   );
