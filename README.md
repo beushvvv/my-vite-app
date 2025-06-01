@@ -1,13 +1,85 @@
-# React + Vite
+# IronGym Fitness Club
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+IronGym 
+Современный фитнес-клуб с инновационным подходом к тренировкам
 
-Currently, two official plugins are available:
+## 🚀 О проекте
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+IronGym — это веб-приложение для фитнес-центра, включающее:
+- Информацию о залах и тренерах
+- Онлайн-запись на тренировки
+- Контактную информацию
+- Описание услуг
 
-## Expanding the ESLint configuration
+**Технологии**:
+- ⚡ Vite 4.x (быстрый сборщик)
+- 🏗️ React 18
+- 🎨 Tailwind CSS 3 (стилизация)
+- 🧭 React Router (навигация)
+- 📱 Полная адаптивность
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# my-vite-app" 
+## 📦 Установка
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/beushvvv/my-vite-app.git
+   cd my-vite-app
+2. Установите зависимости:
+
+    bash
+    npm install
+3. Настройте окружение (при необходимости):
+
+    bash
+    cp .env.example .env
+4. Разработка (с hot-reload):
+
+    bash
+    npm run dev
+5. Откройте http://localhost:5173
+
+6. Сборка для production:
+
+    bash
+    npm run build
+    Готовые файлы появятся в папке dist/
+
+7. Превью сборки:
+
+    bash
+    npm run preview
+
+## 🎨 Особенности стилизации
+
+**Используется Tailwind CSS с кастомными настройками:**
+
+js
+    // tailwind.config.js
+    theme: {
+        extend: {
+            colors: {
+                primary: '#f59e0b', // Основной янтарный
+                secondary: '#1e40af' // Синий
+            }
+        }
+    }
+
+## Главные страницы:
+
+1. / — Главная
+
+2. /about — О нас
+
+3. /halls — Залы
+
+4. /trainers — Тренеры
+
+5. /contacts — Контакты
+
+## Ссылки:
+
+    https://github.com/beushvvv/my-vite-app
+
+    https://www.figma.com/design/pCffWDvZiQwe5Z6ZGamGKi/Untitled?node-id=0-1&t=jqwaM8sZ6oHruNNP-1
+
+©Артём Беушев 2025
