@@ -53,7 +53,7 @@ IronGym — это веб-приложение для фитнес-центра,
 
 **Используется Tailwind CSS с кастомными настройками:**
 
-js
+```js
     // tailwind.config.js
     theme: {
         extend: {
