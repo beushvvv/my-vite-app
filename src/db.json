@@ -1,28 +1,45 @@
 {
   "items": [
     {
-      "id": "1",
-      "title": "Пример 1",
-      "description": "Описание 1"
+      "title": "Пример",
+      "description": "Описание 1",
+      "image": null,
+      "id": "1"
     },
     {
-      "id": "2",
-      "title": "Пример 2",
-      "description": "Описание 2"
+      "title": "Пример",
+      "description": "Описание 2",
+      "image": null,
+      "id": "2"
     },
     {
-      "title": "Обновлённый заголовок",
-      "description": "Новое описание",
-      "id": "8973"
-    },
-    {
-      "id": "cf32",
-      "title": "Новый элемент"
+      "id": "8973",
+      "title": "8973",
+      "description": "Новейшее описание",
+      "image": null,
+      "updatedAt": "2025-06-03T05:14:36.785Z"
     },
     {
       "id": "56fa",
-      "title": "Название",
-      "description": "Что-то новое"
+      "title": "Отсутствует",
+      "description": "Что-то новое",
+      "image": null,
+      "updatedAt": "2025-06-03T04:53:12.402Z"
+    },
+    {
+      "id": "5",
+      "title": "Пример 15",
+      "description": "Описание элемента 15",
+      "image": null,
+      "updatedAt": "2025-06-03T04:57:57.317Z"
+    },
+    {
+      "id": "123123",
+      "title": "222222",
+      "description": "44444444444",
+      "image": null,
+      "createdAt": "2025-06-03T04:58:35.864Z",
+      "updatedAt": "2025-06-03T04:58:35.864Z"
     }
   ]
 }

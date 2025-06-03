@@ -345,3 +345,18 @@ img {
     padding: 10px 20px;
   }
 }
+
+.action-link {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem 0;
+  background-color: #3498db;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.action-link:hover {
+  background-color: #2980b9;
+}

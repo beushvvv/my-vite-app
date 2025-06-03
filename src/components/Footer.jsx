@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './Footer.css';
 
 function Footer() {
   return (
@@ -22,6 +23,8 @@ function Footer() {
               <Link to="/trainers">Тренеры</Link>
               {' '}
               <Link to="/contacts">Контакты</Link>
+              {' '}
+              <Link to="/items">Все элементы</Link>
             </nav>
           </div>
           

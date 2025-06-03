@@ -1,0 +1,142 @@
+/* Основные стили карточки */
+.details-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.details-card {
+  background: var(--card-bg, #ffffff);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.details-card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Шапка карточки */
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color, #eaeaea);
+}
+
+.details-header h2 {
+  margin: 0;
+  color: var(--primary-color, #3498db);
+  font-size: 1.8rem;
+}
+
+.item-id {
+  font-size: 0.9rem;
+  color: var(--text-muted, #666);
+  background: var(--bg-muted, #f5f5f5);
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px;
+}
+
+/* Изображение */
+.item-image {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.item-image img {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Контент */
+.details-content {
+  margin-top: 1.5rem;
+}
+
+.details-content h3 {
+  color: var(--heading-color, #333);
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.details-content p {
+  line-height: 1.6;
+  color: var(--text-color, #333);
+  white-space: pre-line;
+}
+
+/* Мета-данные */
+.meta-data {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--text-muted, #666);
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Кнопки */
+.details-actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.edit-button {
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color, #3498db);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.edit-button:hover {
+  background-color: var(--primary-dark, #2980b9);
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color, #3498db);
+  text-decoration: none;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0;
+}
+
+/* Состояние загрузки */
+.loading-spinner {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted, #666);
+}
+
+/* Не найдено */
+.not-found {
+  text-align: center;
+  padding: 3rem;
+}
+
+.not-found button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color, #3498db);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
