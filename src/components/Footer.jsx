@@ -5,6 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
+        <div className="footer-grid">
         <div className="footer-content">
           <div className="footer-section">
             <h3>IronGym</h3>
@@ -33,6 +34,7 @@ function Footer() {
             <p>info@irongym.ru</p>
             <p>+7 (800) 555-35-35</p>
           </div>
+        </div>
         </div>
         <div className="copyright">
           <p>&copy; {new Date().getFullYear()} IronGym. Все права защищены.</p>
